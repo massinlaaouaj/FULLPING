@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="../../assets/js/ajax.js"></script>
+        
     </head>
         
     <body>
@@ -26,7 +27,9 @@
                 <input id="ip" name="ip" class="form-control" type="text" minlength="7" maxlength="15" size="15" pattern="^((\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.){3}(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$" title="IP" placeholder="Ex; 192.168.1.1" required>
                 <br>
                 <input type="submit" class="btn btn-primary text-light" value="Submit">
+                
             </form>
+            
         </div>
         
         <div class="divglobal">
