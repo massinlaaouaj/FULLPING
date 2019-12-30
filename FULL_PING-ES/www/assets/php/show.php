@@ -2,14 +2,17 @@
     
     function table() {
         
+        $cwd = getcwd();
+        $upper = dirname(__DIR__, 3);
+        chdir($upper);
         $file_content = file_get_contents('ip_list.json');
         $file_decode = json_decode($file_content,true);
-        
+        chdir($cwd);
         if (isset($file_decode[1])) {
             
         ?>
             
-            <table class="table table-hover table-dark">
+            <table class="table table-hover table-light">
                 <thead>
                     <tr>
                         <th scope="col">UP/DOWN</th>
@@ -30,7 +33,7 @@
                                 print_r ("
                                 <tr>
                                     <td>".$up_down[0]."</td>
-                                    <td><button type='button' class='btn btn-light'>name</button></td>
+                                    <td><button type='button' class='btn btn-dark'>name</button></td>
                                     <td>".$ip_mostra['IP']."</td>
                                     <td>".$up_down[1]."ms</td>
                                 </tr>

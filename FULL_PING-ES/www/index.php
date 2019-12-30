@@ -22,23 +22,18 @@
         
         </div>
         
-        <div class="divglobal">
+        <div class="container">
             <hr>
             <?php
                 include ("assets/php/show.php");
                 
-                $file_content = file_get_contents('ip_list.json');
+                $file_content = file_get_contents('../ip_list.json');
                 $file_decode = json_decode($file_content,true);
                 $count = count($file_decode);
                 $count = $count - 1;
                 $count = $count * 1000;
                 
                 table();
-            /*
-                $i=0;
-                while ($i<50) {
-                    table();
-                }*/
             ?>
             
             <hr>

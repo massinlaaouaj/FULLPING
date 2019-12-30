@@ -1,68 +1,57 @@
-        .div-navegacio {
-            margin-top: 20px;
-        }
+.div-navegacio {
+    margin-top: 20px;
+}
 
-        .nav-navegacio {
-            border-radius: 5px;
-        }
+.nav-navegacio {
+    border-radius: 5px;
+}
 
-        .boto-configracio {
-            right: 0px;
-        }
+.boto-configracio {
+    right: 0px;
+}
 
-        .title {
-            margin-top: 30px;
-        }
+.title {
+    margin-top: 30px;
+}
 
-        .texto-input {
-            right: 0px;
-        }
+.texto-input {
+    right: 0px;
+}
 
-        .div_input {
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 40px;
-            width: 200px;
-            min-width: 400px;
-        }
+.div_input {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 200px;
+    min-width: 400px;
+}
+    
+.mm {
+    margin-top: 30px;
+}
+    
+.div_i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 260;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
-        .divglobal {
-            width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 40px;
-            min-width: 700px;
-        }
-            
-        .mm {
-            margin-top: 30px;
-        }
-            
-        .div_i {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            width: 400px;
-            height: 260;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 7px;
-            padding-left: 15px;
-            padding-right: 15px;
-        }
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
 
-        .svg_up {
-        }
-
-        .footer {
-            position: fixed;
-            width: 100%;
-            bottom: 0px;
-        }
-        
-        @media {
-            body {
-                min-width: 800px;
-            } 
-        }
+@media {
+    body {
+        min-width: 800px;
+    } 
+}
