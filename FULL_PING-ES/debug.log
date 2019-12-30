@@ -7018,3 +7018,281 @@ Respuesta desde 192.168.1.105: bytes=32 tiempo<1m TTL=128
 - 02:55:54.157 DEBUG: Calling CefQuitMessageLoop()
 - 02:55:55.204 INFO: Ended application
 - 02:55:55.204 INFO: --------------------------------------------------------
+- 14:04:01.016 INFO: --------------------------------------------------------
+- 14:04:01.016 INFO: Started application
+- 14:04:01.016 INFO: Logging to: C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log
+- 14:04:01.016 INFO: Log level = DEBUG4
+- 14:04:01.016 INFO: Starting Mongoose 3.9c web server
+- 14:04:01.016 INFO: WWW directory: C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\www
+- 14:04:01.016 INFO: Index files: index.html,index.php
+- 14:04:01.016 INFO: CGI interpreter: C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\php\php-cgi.exe
+- 14:04:01.016 INFO: CGI pattern: **.php$
+- 14:04:01.016 INFO: Hide files patterns: 
+- 14:04:01.016 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\CCDC~1\AppData\Local\Temp\
+- 14:04:01.016 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:04:01.016 INFO: Web server url: http://127.0.0.1:51945/
+- 14:04:01.016 INFO: remote_debugging_port = 63102
+- 14:04:01.047 DEBUG: Command line string for the browser process: "C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --remote-debugging-port=63102
+- 14:04:01.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6446 --gpu-driver-date=11-19-2018 --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --service-request-channel-token=B1B1D5466B25EB47F701AC88BDD248DC --mojo-platform-channel-handle=1920 /prefetch:2
+- 14:04:01.344 DEBUG: App::OnContextInitialized()
+- 14:04:01.344 INFO: DPI, window enlarged by 25% new width/height = 1125/1000
+- 14:04:01.344 DEBUG: Window max width/height = 1842/984
+- 14:04:01.344 DEBUG: Window max size exceeded, new width/height = 1125/984
+- 14:04:01.344 DEBUG: GetBrowserWindow(): not found, hwnd = 2032780
+- 14:04:01.344 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:04:01.344 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:04:01.360 DEBUG: StoreBrowserWindow(): hwnd = 2032780
+- 14:04:01.422 DEBUG: ClientHandler::OnAfterCreated()
+- 14:04:01.422 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:04:01.453 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:04:01.000 DEBUG: Command line string for the renderer process: "C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=5DDF7D4AE0D9B7C654DB2BB4178C9D12 --lang=en-US --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5DDF7D4AE0D9B7C654DB2BB4178C9D12 --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+[1230/140401.749:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:04:01.156 DEBUG: OnBrowserCreated()
+- 14:04:02.594 INFO: GET 200 /assets/css/main.css
+- 14:04:02.594 INFO: GET 200 /assets/js/ajax.js
+- 14:04:02.125 DEBUG: OnContextCreated()
+- 14:04:09.688 DEBUG: WM_DESTROY
+- 14:04:09.688 DEBUG: RemoveBrowserWindow(): hwnd = 2032780
+- 14:04:09.688 INFO: Stopping Mongoose web server
+- 14:04:09.688 DEBUG: Mongoose webserver stopped immediately
+- 14:04:09.703 DEBUG: OnBeforeClose() hwnd=132382
+- 14:04:09.703 DEBUG: RemoveBrowserWindow(): hwnd = 132382
+- 14:04:09.703 DEBUG: GetBrowserWindow(): not found, hwnd = 132382
+- 14:04:09.703 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:04:09.703 DEBUG: Calling CefQuitMessageLoop()
+- 14:04:10.766 INFO: Ended application
+- 14:04:10.766 INFO: --------------------------------------------------------
+- 14:04:30.000 INFO: --------------------------------------------------------
+- 14:04:30.000 INFO: Started application
+- 14:04:30.000 INFO: Logging to: C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log
+- 14:04:30.000 INFO: Log level = DEBUG4
+- 14:04:30.000 INFO: Starting Mongoose 3.9c web server
+- 14:04:30.000 INFO: WWW directory: C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\www
+- 14:04:30.000 INFO: Index files: index.html,index.php
+- 14:04:30.000 INFO: CGI interpreter: C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\php\php-cgi.exe
+- 14:04:30.000 INFO: CGI pattern: **.php$
+- 14:04:30.000 INFO: Hide files patterns: 
+- 14:04:30.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\CCDC~1\AppData\Local\Temp\
+- 14:04:30.000 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:04:30.000 INFO: Web server url: http://127.0.0.1:51949/
+- 14:04:30.000 INFO: remote_debugging_port = 55450
+- 14:04:30.000 DEBUG: Command line string for the browser process: "C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\FULL_PING.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --remote-debugging-port=55450
+- 14:04:30.047 DEBUG: App::OnContextInitialized()
+- 14:04:30.047 INFO: DPI, window enlarged by 25% new width/height = 1125/1000
+- 14:04:30.047 DEBUG: Window max width/height = 1842/984
+- 14:04:30.047 DEBUG: Window max size exceeded, new width/height = 1125/984
+- 14:04:30.047 DEBUG: GetBrowserWindow(): not found, hwnd = 787154
+- 14:04:30.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:04:30.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:04:30.047 DEBUG: StoreBrowserWindow(): hwnd = 787154
+- 14:04:31.109 DEBUG: ClientHandler::OnAfterCreated()
+- 14:04:31.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:04:31.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\FULL_PING.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6446 --gpu-driver-date=11-19-2018 --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --service-request-channel-token=3322B5D505FE8318094F57A27BD16064 --mojo-platform-channel-handle=1776 /prefetch:2
+- 14:04:31.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:04:31.000 DEBUG: Command line string for the renderer process: "C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\FULL_PING.exe" --type=renderer --no-sandbox --primordial-pipe-token=1F3F6CF5DB1E747FECAD7C2A6244E533 --lang=en-US --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1F3F6CF5DB1E747FECAD7C2A6244E533 --renderer-client-id=3 --mojo-platform-channel-handle=2384 /prefetch:1
+[1230/140431.111:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:04:31.032 DEBUG: OnBrowserCreated()
+- 14:04:31.922 INFO: GET 200 /assets/css/main.css
+- 14:04:31.922 INFO: GET 200 /assets/js/ajax.js
+- 14:04:31.782 DEBUG: OnContextCreated()
+- 14:04:38.250 DEBUG: WM_DESTROY
+- 14:04:38.250 DEBUG: RemoveBrowserWindow(): hwnd = 787154
+- 14:04:38.250 INFO: Stopping Mongoose web server
+- 14:04:38.250 DEBUG: Mongoose webserver stopped immediately
+- 14:04:38.250 DEBUG: OnBeforeClose() hwnd=197918
+- 14:04:38.250 DEBUG: RemoveBrowserWindow(): hwnd = 197918
+- 14:04:38.250 DEBUG: GetBrowserWindow(): not found, hwnd = 197918
+- 14:04:38.250 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:04:38.250 DEBUG: Calling CefQuitMessageLoop()
+- 14:04:38.281 INFO: Ended application
+- 14:04:38.281 INFO: --------------------------------------------------------
+- 14:09:07.016 INFO: --------------------------------------------------------
+- 14:09:07.016 INFO: Started application
+- 14:09:07.016 INFO: Logging to: C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log
+- 14:09:07.016 INFO: Log level = DEBUG4
+- 14:09:07.016 INFO: Starting Mongoose 3.9c web server
+- 14:09:07.016 INFO: WWW directory: C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\www
+- 14:09:07.016 INFO: Index files: index.html,index.php
+- 14:09:07.016 INFO: CGI interpreter: C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\php\php-cgi.exe
+- 14:09:07.016 INFO: CGI pattern: **.php$
+- 14:09:07.016 INFO: Hide files patterns: 
+- 14:09:07.016 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\CCDC~1\AppData\Local\Temp\
+- 14:09:07.016 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:09:07.016 INFO: Web server url: http://127.0.0.1:52025/
+- 14:09:07.016 INFO: remote_debugging_port = 55412
+- 14:09:07.016 DEBUG: Command line string for the browser process: "C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\FULL_PING.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --remote-debugging-port=55412
+- 14:09:07.063 DEBUG: App::OnContextInitialized()
+- 14:09:07.063 INFO: DPI, window enlarged by 25% new width/height = 1125/1000
+- 14:09:07.063 DEBUG: Window max width/height = 1842/984
+- 14:09:07.063 DEBUG: Window max size exceeded, new width/height = 1125/984
+- 14:09:07.063 DEBUG: GetBrowserWindow(): not found, hwnd = 132452
+- 14:09:07.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:09:07.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:09:07.063 DEBUG: StoreBrowserWindow(): hwnd = 132452
+- 14:09:07.110 DEBUG: ClientHandler::OnAfterCreated()
+- 14:09:07.110 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:09:07.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\FULL_PING.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6446 --gpu-driver-date=11-19-2018 --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --service-request-channel-token=BF5C2E6D0355C049CDE8EB7E86942631 --mojo-platform-channel-handle=1772 /prefetch:2
+- 14:09:07.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:09:07.000 DEBUG: Command line string for the renderer process: "C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\FULL_PING.exe" --type=renderer --no-sandbox --primordial-pipe-token=3CDD4EDEED0840F22E87C8036D2E8E83 --lang=en-US --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=3CDD4EDEED0840F22E87C8036D2E8E83 --renderer-client-id=3 --mojo-platform-channel-handle=2344 /prefetch:1
+[1230/140907.603:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:09:07.047 DEBUG: OnBrowserCreated()
+- 14:09:08.797 INFO: GET 200 /assets/css/main.css
+- 14:09:08.797 INFO: GET 200 /
+- 14:09:08.797 INFO: GET 200 /assets/js/ajax.js
+- 14:09:08.640 DEBUG: OnContextCreated()
+- 14:09:08.813 INFO: GET 200 /assets/js/main.js
+[1230/140908.314:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:09:08.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/
+- 14:09:33.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52025/
+- 14:09:33.860 INFO: GET 200 /pages/settings/settings.php
+- 14:09:33.703 DEBUG: OnContextCreated()
+[1230/140933.346:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:09:33.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/pages/settings/settings.php
+- 14:11:11.454 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52025/pages/settings/settings.php
+- 14:11:12.172 DEBUG: OnContextCreated()
+- 14:11:12.329 INFO: GET 200 /index.php
+[1230/141112.766:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:11:12.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/index.php
+- 14:11:13.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52025/index.php
+- 14:11:13.172 DEBUG: OnContextCreated()
+- 14:11:13.329 INFO: GET 200 /index.php
+[1230/141113.766:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:11:13.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/index.php
+- 14:11:19.485 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52025/index.php
+- 14:11:20.484 DEBUG: OnContextCreated()
+- 14:11:20.641 INFO: GET 200 /pages/settings/settings.php
+[1230/141120.089:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:11:20.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/pages/settings/settings.php
+- 14:11:21.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52025/pages/settings/settings.php
+- 14:11:22.656 DEBUG: OnContextCreated()
+- 14:11:22.813 INFO: GET 200 /index.php
+[1230/141122.266:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:11:22.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/index.php
+- 14:11:25.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52025/index.php
+- 14:11:25.765 DEBUG: OnContextCreated()
+- 14:11:25.922 INFO: GET 200 /pages/settings/settings.php
+[1230/141125.371:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:11:25.954 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/pages/settings/settings.php
+- 14:11:26.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52025/pages/settings/settings.php
+- 14:11:27.656 DEBUG: OnContextCreated()
+- 14:11:27.813 INFO: GET 200 /index.php
+[1230/141127.253:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:11:27.829 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/index.php
+- 14:11:29.282 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52025/index.php
+- 14:11:30.813 INFO: GET 200 /index.php
+- 14:11:30.656 DEBUG: OnContextCreated()
+- 14:11:30.829 INFO: GET 200 /assets/css/main.css
+- 14:11:30.829 INFO: GET 200 /assets/js/main.js
+- 14:11:30.829 INFO: GET 200 /assets/js/ajax.js
+[1230/141130.650:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:11:30.235 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/index.php
+- 14:11:32.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52025/index.php
+- 14:11:33.672 DEBUG: OnContextCreated()
+- 14:11:33.829 INFO: GET 200 /assets/css/main.css
+- 14:11:33.829 INFO: GET 200 /index.php
+- 14:11:33.829 INFO: GET 200 /assets/js/ajax.js
+- 14:11:33.829 INFO: GET 200 /assets/js/main.js
+[1230/141133.360:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:11:33.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/index.php
+- 14:11:34.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52025/index.php
+- 14:11:35.640 DEBUG: OnContextCreated()
+- 14:11:35.797 INFO: GET 200 /index.php
+- 14:11:35.797 INFO: GET 200 /assets/css/main.css
+- 14:11:35.797 INFO: GET 200 /assets/js/ajax.js
+- 14:11:35.797 INFO: GET 200 /assets/js/main.js
+[1230/141135.386:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:11:35.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/index.php
+- 14:11:37.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52025/index.php
+- 14:11:38.609 DEBUG: OnContextCreated()
+- 14:11:38.766 INFO: GET 200 /index.php
+- 14:11:38.782 INFO: GET 200 /assets/css/main.css
+- 14:11:38.782 INFO: GET 200 /assets/js/ajax.js
+- 14:11:38.782 INFO: GET 200 /assets/js/main.js
+[1230/141138.314:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:11:38.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/index.php
+- 14:16:09.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52025/index.php
+- 14:16:09.781 DEBUG: OnContextCreated()
+- 14:16:09.938 INFO: GET 200 /pages/settings/settings.php
+[1230/141609.405:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:16:09.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/pages/settings/settings.php
+- 14:24:09.282 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52025/pages/settings/settings.php
+- 14:24:10.625 DEBUG: OnContextCreated()
+- 14:24:10.797 INFO: GET 200 /index.php
+[1230/142410.236:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:24:10.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/index.php
+- 14:30:18.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52025/index.php
+- 14:30:19.813 INFO: GET 200 /index.php
+- 14:30:19.672 DEBUG: OnContextCreated()
+- 14:30:19.829 INFO: GET 200 /assets/css/main.css
+- 14:30:19.829 INFO: GET 200 /assets/js/ajax.js
+- 14:30:19.829 INFO: GET 200 /assets/js/main.js
+[1230/143019.506:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:30:19.079 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/index.php
+- 14:30:28.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52025/index.php
+- 14:30:28.187 DEBUG: OnContextCreated()
+- 14:30:28.344 INFO: GET 200 /assets/css/main.css
+- 14:30:28.344 INFO: GET 200 /assets/js/ajax.js
+- 14:30:28.360 INFO: GET 200 /index.php
+- 14:30:28.360 INFO: GET 200 /assets/js/main.js
+[1230/143028.921:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52025/assets/js/main.js (1)
+- 14:30:28.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52025/index.php
+- 15:00:14.625 DEBUG: WM_DESTROY
+- 15:00:14.625 DEBUG: RemoveBrowserWindow(): hwnd = 132452
+- 15:00:14.625 INFO: Stopping Mongoose web server
+- 15:00:14.625 DEBUG: Mongoose webserver stopped immediately
+- 15:00:14.625 DEBUG: OnBeforeClose() hwnd=132510
+- 15:00:14.625 DEBUG: RemoveBrowserWindow(): hwnd = 132510
+- 15:00:14.625 DEBUG: GetBrowserWindow(): not found, hwnd = 132510
+- 15:00:14.625 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:00:14.625 DEBUG: Calling CefQuitMessageLoop()
+- 15:00:14.672 INFO: Ended application
+- 15:00:14.672 INFO: --------------------------------------------------------
+- 15:00:20.000 INFO: --------------------------------------------------------
+- 15:00:20.000 INFO: Started application
+- 15:00:20.000 INFO: Logging to: C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log
+- 15:00:20.000 INFO: Log level = DEBUG4
+- 15:00:20.000 INFO: Starting Mongoose 3.9c web server
+- 15:00:20.000 INFO: WWW directory: C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\www
+- 15:00:20.000 INFO: Index files: index.html,index.php
+- 15:00:20.000 INFO: CGI interpreter: C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\php\php-cgi.exe
+- 15:00:20.000 INFO: CGI pattern: **.php$
+- 15:00:20.000 INFO: Hide files patterns: 
+- 15:00:20.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\CCDC~1\AppData\Local\Temp\
+- 15:00:20.000 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:00:20.000 INFO: Web server url: http://127.0.0.1:52317/
+- 15:00:20.000 INFO: remote_debugging_port = 50506
+- 15:00:20.016 DEBUG: Command line string for the browser process: "C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\FULL_PING.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --remote-debugging-port=50506
+- 15:00:20.047 DEBUG: App::OnContextInitialized()
+- 15:00:20.047 INFO: DPI, window enlarged by 25% new width/height = 1125/1000
+- 15:00:20.047 DEBUG: Window max width/height = 1842/984
+- 15:00:20.047 DEBUG: Window max size exceeded, new width/height = 1125/984
+- 15:00:20.047 DEBUG: GetBrowserWindow(): not found, hwnd = 198046
+- 15:00:20.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:00:20.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:00:20.063 DEBUG: StoreBrowserWindow(): hwnd = 198046
+- 15:00:20.109 DEBUG: ClientHandler::OnAfterCreated()
+- 15:00:20.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:00:20.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:00:20.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\FULL_PING.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=25.20.100.6446 --gpu-driver-date=11-19-2018 --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --service-request-channel-token=00987C2F7628EC813ED84332AFAC34F7 --mojo-platform-channel-handle=1752 /prefetch:2
+- 15:00:20.000 DEBUG: Command line string for the renderer process: "C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\FULL_PING.exe" --type=renderer --no-sandbox --primordial-pipe-token=9E1DDC076E1145F9D019DBDB52A34522 --lang=en-US --lang=en-US --log-file="C:\Users\Ü\Desktop\PROJECT-FULL_PING\FULL_PING-ES\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=9E1DDC076E1145F9D019DBDB52A34522 --renderer-client-id=3 --mojo-platform-channel-handle=2356 /prefetch:1
+[1230/150020.373:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:00:20.031 DEBUG: OnBrowserCreated()
+- 15:00:21.078 INFO: GET 200 /assets/css/main.css
+- 15:00:21.078 INFO: GET 200 /assets/js/ajax.js
+- 15:00:21.078 INFO: GET 200 /
+- 15:00:21.906 DEBUG: OnContextCreated()
+- 15:00:21.094 INFO: GET 200 /assets/js/main.js
+[1230/150021.354:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: http://127.0.0.1:52317/assets/js/main.js (1)
+- 15:00:21.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52317/
+- 15:00:31.031 DEBUG: WM_DESTROY
+- 15:00:31.031 DEBUG: RemoveBrowserWindow(): hwnd = 198046
+- 15:00:31.031 INFO: Stopping Mongoose web server
+- 15:00:31.031 DEBUG: Mongoose webserver stopped immediately
+- 15:00:31.031 DEBUG: OnBeforeClose() hwnd=329146
+- 15:00:31.031 DEBUG: RemoveBrowserWindow(): hwnd = 329146
+- 15:00:31.031 DEBUG: GetBrowserWindow(): not found, hwnd = 329146
+- 15:00:31.031 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:00:31.031 DEBUG: Calling CefQuitMessageLoop()
+- 15:00:31.891 DEBUG: OnBrowserDestroyed()
+- 15:00:31.094 INFO: Ended application
+- 15:00:31.094 INFO: --------------------------------------------------------

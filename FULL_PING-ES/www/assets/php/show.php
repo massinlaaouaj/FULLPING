@@ -22,7 +22,6 @@
                     
                     <?php
                         foreach ($file_decode as $ip_mostra) {
-                            //print_r(", IP> " . $ip_mostra['IP']);
                             
                             if ($ip_mostra['IP'] != "") {
                                 

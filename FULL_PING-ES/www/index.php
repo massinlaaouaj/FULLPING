@@ -33,12 +33,12 @@
                 $count = $count - 1;
                 $count = $count * 1000;
                 
-            
-            
+                table();
+            /*
                 $i=0;
                 while ($i<50) {
                     table();
-                }
+                }*/
             ?>
             
             <hr>
