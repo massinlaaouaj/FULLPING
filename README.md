@@ -7,4 +7,4 @@
 
 ## SNAPSHOT:
 
-![fullping](readme-content/FULL_PING.png)
+![fullping](readme-content/FULL_PING.webp)
