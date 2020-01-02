@@ -7,4 +7,4 @@
 
 ## SNAPSHOT:
 
-![fullping](https://user-images.githubusercontent.com/48721794/71587026-77f75d00-2b1c-11ea-8441-74bd862be0d9.PNG)
+![fullping](https://user-images.githubusercontent.com/48721794/71686948-ec403380-2d9c-11ea-8988-1756db768bb1.PNG)
