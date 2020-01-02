@@ -23,15 +23,22 @@
         </div>
         
         <div class="divglobal">
-            <hr>
+            
             <?php
                 include ("assets/php/show.php");
+            
+                define('ROOT_PATH', dirname(__DIR__));
+            
+                $dir = ROOT_PATH;
+            
+                $_SERVER['DOCUMENT_ROOT'] = $dir;
                 
-                $file_content = file_get_contents('ip_list.json');
-                $file_decode = json_decode($file_content,true);
-                $count = count($file_decode);
-                $count = $count - 1;
-                $count = $count * 1000;
+                //$file_content = file_get_contents('./ip_list.json');
+                //$file_decode = json_decode($file_content,true);
+                //$count = count($file_decode);
+                
+                //$count = $count - 1;
+                //$count = $count * 1000;
                 
                 table();
             /*
@@ -44,7 +51,7 @@
             <hr>
         </div>
         
-        <footer class="card-footer text-muted footer">
+        <footer class="footer">
                 <p class="text-center">
                 
                 <a class="link_github" href="https://github.com/massinlaaouaj" target="_blank">

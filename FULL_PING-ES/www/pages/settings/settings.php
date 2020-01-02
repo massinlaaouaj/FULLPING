@@ -21,9 +21,9 @@
         <div class="div_input">
             <form id="formulari-settings" method="post" action="../../assets/php/set.php">
                 <label class="texto-input"><b>Name of petition:</b></label>
-                <input id="name" name="name" class="form-control" type="text" title="Name of petition" placeholder="Ex; Host1" autofocus>
+                <input id="name" name="name" class="form-control" type="text" title="Name of petition" placeholder="Ex; Host1" required autofocus>
                 <br>
-                <label class="texto-input"><b>IP: *</b></label>
+                <label class="texto-input"><b>IP:</b></label>
                 <input id="ip" name="ip" class="form-control" type="text" minlength="7" maxlength="15" size="15" pattern="^((\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.){3}(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$" title="IP" placeholder="Ex; 192.168.1.1" required>
                 <br>
                 <input type="submit" class="btn btn-primary text-light" value="Submit">
@@ -36,14 +36,14 @@
             
             <div class="div_i bg-light">
                 <h5 class="text-center card-title mm">NOTES:</h5>
-                <p class="text-center"><b>-</b> You can edit and delete your IPs in the file "ip_list.json".</p>
-                <p class="text-center"><b>-</b> This version of FULLPING is SPANISH.</p>
+                <p class="text-center"><b>-</b> You can edit and delete your IPs in the file "FULL_PING-ES/www/ip_list.json".</p>
+                <p class="text-center"><b>-</b> This version of FULLPING is for spanish lenguage host.</p>
             </div>
             <hr>
-            <p class="text-center">Creator; <b>Massin Laaouaj</b></p>
+            <p class="text-center">Made by: <b>Massin Laaouaj</b></p>
         </div>
         
-        <footer class="card-footer text-muted footer">
+        <footer class="card-footer text-muted footer_settings">
             <p class="text-center">
                 
                 <a class="link_github" href="https://github.com/massinlaaouaj" target="_blank">

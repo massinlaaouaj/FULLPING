@@ -1,8 +1,9 @@
 <?php
     
     function table() {
+        $dir = $_SERVER['DOCUMENT_ROOT'];
         
-        $file_content = file_get_contents('ip_list.json');
+        $file_content = file_get_contents($dir . '\www\ip_list.json');
         $file_decode = json_decode($file_content,true);
         
         if (isset($file_decode[1])) {
@@ -30,7 +31,7 @@
                                 print_r ("
                                 <tr>
                                     <td>".$up_down[0]."</td>
-                                    <td><button type='button' class='btn btn-light'>name</button></td>
+                                    <td><button type='button' class='btn btn-light'>".$ip_mostra['NAME']."</button></td>
                                     <td>".$ip_mostra['IP']."</td>
                                     <td>".$up_down[1]."ms</td>
                                 </tr>
@@ -46,7 +47,7 @@
         ?>
             
             <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                <strong>Hi! </strong>You should go to settings.
+                <strong>Hi! </strong>You should go to settings and put some of your IPs.
             </div>
 
         <?php
@@ -92,11 +93,14 @@
   }
 
   function string_between_two_string($str, $starting_word, $ending_word){ 
-    $arr = explode($starting_word, $str); 
+      
+      $arr = explode($starting_word, $str);
+      
     if (isset($arr[1])){ 
         $arr = explode($ending_word, $arr[1]); 
         return $arr[0]; 
     }
+      
     return ''; 
   } 
     
