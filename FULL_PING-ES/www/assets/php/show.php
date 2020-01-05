@@ -22,6 +22,7 @@
                 <tbody>
                     
                     <?php
+                        $cont = 0;
                         foreach ($file_decode as $ip_mostra) {
                             
                             if ($ip_mostra['IP'] != "") {
@@ -30,13 +31,14 @@
                                 
                                 print_r ("
                                 <tr>
-                                    <td>".$up_down[0]."</td>
+                                    <td id='STATE".$cont."'>".$up_down[0]."</td>
                                     <td><button type='button' class='btn btn-light'>".$ip_mostra['NAME']."</button></td>
-                                    <td>".$ip_mostra['IP']."</td>
-                                    <td>".$up_down[1]."ms</td>
+                                    <td id='IP".$cont."' class='ip_value' data-value ='".$ip_mostra['IP']."' value ='".$ip_mostra['IP']."'>".$ip_mostra['IP']."</td>
+                                    <td id='TIME".$cont."'>".$up_down[1]."ms</td>
                                 </tr>
                                 ");
                             }
+                            $cont++;
                         }
                     ?>
                 </tbody>
@@ -78,8 +80,6 @@
         
         return $array;
         
-        
-        return "UP";
     } else if (!isset($result)) {
         $svg = "<svg class='svg_up' height='33' width='33'>
                   <circle cx='20' cy='20' r='10' stroke='#DD3153' stroke-width='3' fill='#DC5771' />

@@ -61,6 +61,7 @@
             </footer>
         
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/update_data.js"></script>
         
     </body>
 </html>
